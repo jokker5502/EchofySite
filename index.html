@@ -31,12 +31,6 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-
-        /* Animación suave para el logo */
-        .logo-spin:hover {
-            transform: rotate(180deg);
-            transition: transform 0.7s ease-in-out;
-        }
     </style>
 </head>
 <body class="bg-tech text-white min-h-screen">
@@ -46,8 +40,13 @@
             
             <div class="flex items-center gap-3 cursor-pointer group" data-aos="fade-down">
                 <div class="relative w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-blue-600 to-cyan-500 rounded-xl shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all group-hover:shadow-[0_0_25px_rgba(6,182,212,0.6)]">
-                    <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+                    <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="none" 
+                        stroke="currentColor" stroke-width="1.8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 9c4 0 4-4 9-4s5 4 9 4" />
+                    <circle cx="12" cy="13" r="3" />
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2 13h4m12 0h4" stroke-opacity="0.6"/>
                     </svg>
                     <div class="absolute inset-0 bg-white/20 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition duration-500"></div>
                 </div>
@@ -58,9 +57,15 @@
                 </div>
             </div>
             
-            <a href="https://wa.me/593XXXXXXXXX" class="hidden md:block bg-white/5 hover:bg-white/10 border border-white/10 text-white px-6 py-2 rounded-full font-medium transition text-sm tracking-wide backdrop-blur-md" data-aos="fade-down" data-aos-delay="100">
+            <a href="https://wa.me/593983899784"
+            class="hidden md:block bg-white/5 hover:bg-white/10 border border-white/10 text-white px-6 py-2 rounded-full font-medium transition text-sm tracking-wide backdrop-blur-md"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-down"
+            data-aos-delay="100">
                 Contactar
             </a>
+
         </div>
     </nav>
 
@@ -79,7 +84,7 @@
                 Desarrollamos desde su presencia web corporativa hasta integraciones complejas con Inteligencia Artificial y Amazon Alexa.
             </p>
             <div class="flex flex-col md:flex-row justify-center gap-6" data-aos="fade-up" data-aos-delay="600">
-                <a href="https://wa.me/593XXXXXXXXX" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold transition shadow-lg shadow-blue-900/50 hover:shadow-blue-600/50 transform hover:-translate-y-1">
+                <a href="https://wa.me/593983899784" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold transition shadow-lg shadow-blue-900/50 hover:shadow-blue-600/50 transform hover:-translate-y-1">
                     Hablar con un Ingeniero
                 </a>
                 <a href="#soluciones" class="border border-gray-700 hover:border-white text-gray-300 px-8 py-4 rounded-lg font-bold transition">
@@ -139,11 +144,48 @@
         </div>
     </section>
 
+    <section class="py-24 px-6 bg-blue-900/5 border-t border-white/5 relative">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full filter blur-[80px]"></div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <span class="text-blue-400 font-bold tracking-widest text-xs uppercase mb-2 block">Voice AI en la Educación</span>
+                    <h2 class="text-3xl md:text-5xl font-bold mb-6">Caso de Éxito: <br> <span class="text-white">Portal Estudiantil LMS</span> </h2>
+                    <p class="text-gray-400 text-lg mb-6 leading-relaxed">
+                        Desarrollamos para la <strong>UIDE (Universidad Internacional del Ecuador)</strong> un sistema que revoluciona la vida estudiantil. 
+                    </p>
+                    <p class="text-gray-400 text-lg mb-6 leading-relaxed">
+                        Mediante una Skill a medida, integración de tokens seguros y servicios en la nube, los estudiantes pueden gestionar su vida académica simplemente diciendo: <br>
+                        <span class="text-white font-bold italic block mt-2">"Alexa, abre Portal Estudiantil"</span>
+                    </p>
+                    
+                    <ul class="space-y-3 text-gray-300 mt-8">
+                        <li class="flex items-center gap-3"><span class="text-blue-500 font-bold">✓</span> <span class="text-sm">Skill personalizada certificada</span></li>
+                        <li class="flex items-center gap-3"><span class="text-blue-500 font-bold">✓</span> <span class="text-sm">Privacidad y encriptación de datos</span></li>
+                        <li class="flex items-center gap-3"><span class="text-blue-500 font-bold">✓</span> <span class="text-sm">Arquitectura Serverless Escalable</span></li>
+                    </ul>
+                </div>
+                
+                <div class="glass p-4 rounded-2xl w-full h-[28rem] md:h-[32rem] flex items-center justify-center border border-blue-500/20 relative overflow-hidden group shadow-2xl shadow-blue-900/20" data-aos="zoom-in">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
+                    
+                    <img src="alexa.png" alt="Integración Alexa UIDE" class="w-full h-full object-cover rounded-xl transition duration-700 group-hover:scale-105 opacity-90 hover:opacity-100">
+                    
+                    <div class="absolute bottom-8 left-8 z-20">
+                        <p class="text-white font-bold text-xl">Integración UIDE</p>
+                        <p class="text-gray-300 text-sm">Powered by Echofy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="py-20 px-6">
         <div class="max-w-4xl mx-auto glass p-12 rounded-3xl text-center border border-blue-500/20 shadow-2xl shadow-blue-900/20" data-aos="zoom-in">
-            <h2 class="text-3xl font-bold mb-4">¿Hablamos de Negocios?</h2>
+            <h2 class="text-3xl font-bold mb-4">¿Listo para innovar?</h2>
             <p class="text-gray-400 mb-8">Agenda una consultoría técnica gratuita de 15 minutos para analizar tu proyecto.</p>
-            <a href="https://wa.me/593XXXXXXXXX" class="inline-block bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition transform hover:-translate-y-1">
+            <a href="https://wa.me/593983899784" class="inline-block bg-white text-black px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition transform hover:-translate-y-1">
                 Contactar por WhatsApp
             </a>
         </div>
